@@ -1,0 +1,106 @@
+  
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #888888;
+    line-height: 1.7;
+}
+a:hover { text-decoration: none }
+ul,ol{margin:0;padding:0;list-style-type: none;}
+
+
+
+/*Main CSS Of Class:   */
+/* Chrome older version e animation support koranor jonno: http://pleeease.io/play/ theke filtered kore nebo...   */
+
+.section-padding {
+  padding: 50px 0;
+}
+
+.section-title {
+  padding-bottom: 30px;
+}
+
+.botdered-img-1{background-image: url(../img/section-img-three.jpg);}
+.botdered-img-2{background-image: url(../img/section-img-two.jpg);}
+.botdered-img-3{background-image: url(../img/section-img-one.jpg);}
+
+.botdered-img {
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  width: 100px;
+  height: 120px;
+  position: relative;
+  border: 1px solid #fff;
+}
+
+.featured-bordered-bg {
+  background-image: url(../img/workplace.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  width: 500px;
+  height: 420px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.single-feature-item {
+  padding-bottom: 30px;
+}
+
+.botdered-img::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  bottom: -6px;
+  z-index: -1;
+  right: -6px;
+  background: #6aaf08;
+}
+
+.single-feature-item h3 {
+  border-bottom: 1px dashed #6aaf08;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.featured-bordered-bg::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #6aaf08;
+  opacity: .2;
+}
+
+.featured-bordered-bg::before {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  background: #6aaf08;
+  z-index: -1;
+}

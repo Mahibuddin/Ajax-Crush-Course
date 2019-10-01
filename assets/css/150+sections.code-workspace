@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "F:\\server\\htdocs\\subpress"
+		},
+		{
+			"path": "F:\\server\\htdocs\\bootstrap-project"
+		},
+		{
+			"path": "F:\\server\\htdocs\\150+Section"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "150+Section"
+	}
+}
