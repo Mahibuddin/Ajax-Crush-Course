@@ -1,7 +1,5 @@
 {
-    
-"users" :
-[
+  "users": [
     {
       "id": 1,
       "name": "Leanne Graham",
@@ -231,6 +229,12 @@
         "catchPhrase": "Centralized empowering task-force",
         "bs": "target end-to-end models"
       }
+    },
+    {
+      "name": "mahib",
+      "phone": "01303260644",
+      "email": "mahib@gmail.com",
+      "id": 11
     }
   ]
 }

@@ -29,7 +29,34 @@
 
         <div class="section-padding">
             <div class="container py-5">
-                <h1 class="display-4 text-center">Welcome to Ajax Crush Course</h1>
+                <h1 class="display-4">Welcome to Ajax Crush Course</h1>
+                <div class="row my-5">
+                    <div class="col">
+                        <input type="text" id="nameField" class="form-control" placeholder="Enter Name">
+                    </div>
+                    <div class="col">
+                        <input type="text" id="phoneField" class="form-control" placeholder="Enter Phone">
+                    </div>
+                    <div class="col">
+                        <input type="email" id="emailField" class="form-control" placeholder="Enter Email">
+                    </div>
+                    <div class="col">
+                        <button id="saveContact" class="btn btn-primary">Save Contact</button>
+                    </div>
+                </div>
+                <table class="table">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th>Name</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody id="tbody">
+                     
+                    </tbody>
+                  </table>
             </div>
         </div>
 
